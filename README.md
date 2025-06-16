@@ -1,6 +1,6 @@
 # kali-vnc
 
-A Dockerize Kali Linux environment with XFCE desktop accessible via VNC.
+A Dockerize Kali Linux environment with XFCE desktop accessible via VNC — offering a lightweight (compared to VirtualBox), powerful, and isolated setup for penetration testing.
 
 ![Setup Demo](./asset/setup.gif)
 
