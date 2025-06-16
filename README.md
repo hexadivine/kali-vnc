@@ -2,7 +2,7 @@
 
 A Dockerize Kali Linux environment with XFCE desktop accessible via VNC.
 
-[![Watch the video](https://img.youtube.com/vi/uiJUg9pb-IQ/maxresdefault.jpg)](https://youtu.be/uiJUg9pb-IQ)
+<iframe width="946" height="532" src="https://www.youtube.com/embed/uiJUg9pb-IQ" title="Kali-VNC Setup Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Features
 
