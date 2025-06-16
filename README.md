@@ -2,6 +2,8 @@
 
 A Dockerize Kali Linux environment with XFCE desktop accessible via VNC.
 
+[![Watch the video](https://img.youtube.com/vi/uiJUg9pb-IQ/maxresdefault.jpg)](https://youtu.be/uiJUg9pb-IQ)
+
 ## Features
 
 -   Kali Linux (rolling)
