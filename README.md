@@ -21,8 +21,6 @@ A Dockerize Kali Linux environment with XFCE desktop accessible via VNC.
 
 ## Installation
 
-Build and run the container:
-
 ```sh
 cd /tmp
 git clone https://github.com/hexadivine/kali-vnc.git
