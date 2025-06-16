@@ -19,14 +19,11 @@ chmod 600 ~/.vnc/passwd
 touch /home/kali/.Xauthority
 chmod 600 /home/kali/.Xauthority
 
-# Start DBus session (for XFCE4 and other apps that need it)
+# Start DBus session 
 export $(dbus-launch)
 
-# Start VNC server
 vncserver :1 -geometry 1920x1080 -depth 24
-
-# Start XFCE4 (or any window manager you prefer)
 startxfce4 &
 
-# Keep the container running
+# Keeps the container running
 tail -f ~/.vnc/*.log
