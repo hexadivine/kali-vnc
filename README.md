@@ -2,7 +2,9 @@
 
 A Dockerize Kali Linux environment with XFCE desktop accessible via VNC.
 
-<iframe width="946" height="532" src="https://www.youtube.com/embed/uiJUg9pb-IQ" title="Kali-VNC Setup Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+![Setup Demo](./asset/setup.gif)
+
+---
 
 ## Features
 
@@ -17,7 +19,7 @@ A Dockerize Kali Linux environment with XFCE desktop accessible via VNC.
 
 -   [Docker](https://docs.docker.com/get-docker/) should be installed on your system
 
-## Install
+## Installation
 
 Build and run the container:
 
@@ -40,7 +42,7 @@ startkali
 stopkali
 ```
 
-## Uninstall
+## Uninstall kali-vnc
 
 ```sh
 cd /tmp
