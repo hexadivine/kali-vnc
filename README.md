@@ -20,7 +20,10 @@ A Dockerize Kali Linux environment with XFCE desktop accessible via VNC.
 Build and run the container:
 
 ```sh
-./setup.sh
+cd /tmp
+git clone https://github.com/hexadivine/kali-vnc.git
+cd kali-vnc
+./install.sh
 ```
 
 ## Start Server
@@ -33,4 +36,13 @@ startkali
 
 ```sh
 stopkali
+```
+
+## Uninstall
+
+```sh
+cd /tmp
+git clone https://github.com/hexadivine/kali-vnc.git
+cd kali-vnc
+./uninstall.sh
 ```
