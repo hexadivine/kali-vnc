@@ -40,6 +40,12 @@ startkali
 stopkali
 ```
 
+## Use Kali CLI
+
+```sh
+runkali
+```
+
 ## Uninstall kali-vnc
 
 ```sh
