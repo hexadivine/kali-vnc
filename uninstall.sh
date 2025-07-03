@@ -1,7 +1,3 @@
 sudo docker stop kali-vnc
 sudo docker rm kali-vnc
-sudo docker rmi kali-vnc
-
-sed -i '/alias startkali=/d' ~/.bashrc
-sed -i '/alias stopkali=/d' ~/.bashrc
-source ~/.bashrc
+#sudo docker rmi kali-vnc
