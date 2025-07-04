@@ -41,7 +41,9 @@ startkali
 runkali
 ```
 
-`runkali` is an alias to `sudo docker exec -it kali-vnc /bin/zsh`. This opens CLI to execute kali-tools from host terminal.
+`runkali` is an alias to `sudo docker exec -it kali-vnc /bin/zsh`. This provides CLI to execute kali-tools from host terminal.
+
+Note: Use `tmux` inside Kali CLI for multitasking.
 
 ### Stop Server
 
@@ -49,7 +51,7 @@ runkali
 stopkali
 ```
 
-`stopkali` is an alias to `sudo docker stop kali-vbc`. Use this command to stop the container.
+`stopkali` is an alias to `sudo docker stop kali-vnc`. Use this command to stop the container.
 
 
 ## Uninstall kali-vnc
