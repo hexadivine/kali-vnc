@@ -22,34 +22,39 @@ A Dockerize Kali Linux environment with XFCE desktop accessible via VNC — offe
 ## Installation
 
 ```sh
-cd /tmp
 git clone https://github.com/hexadivine/kali-vnc.git
 cd kali-vnc
 ./install.sh
 ```
 
-## Start Server
+### Access Kali GUI
 
 ```sh
 startkali
 ```
 
-## Stop Server
+`startkali` is an alias to `sudo docker start kali-vnc`. Execute command `startkali` to start the VNC Server on port `5901`. Use this command if GUI access is necessary.
 
-```sh
-stopkali
-```
-
-## Use Kali CLI
+### Access Kali CLI
 
 ```sh
 runkali
 ```
 
+`runkali` is an alias to `sudo docker exec -it kali-vnc /bin/zsh`. This opens CLI to execute kali-tools from host terminal.
+
+### Stop Server
+
+```sh
+stopkali
+```
+
+`stopkali` is an alias to `sudo docker stop kali-vbc`. Use this command to stop the container.
+
+
 ## Uninstall kali-vnc
 
 ```sh
-cd /tmp
 git clone https://github.com/hexadivine/kali-vnc.git
 cd kali-vnc
 ./uninstall.sh
