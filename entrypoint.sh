@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 # Clean up old lock files
 rm -f /tmp/.X*-lock

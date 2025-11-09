@@ -1,5 +1,6 @@
 sudo docker build -t kali-vnc .
 
+rm -rf ~/.kali
 mkdir ~/.kali
 sudo docker run -d -p 5901:5901 --name kali-vnc --privileged -it -v ~/.kali:/home/kali  kali-vnc /bin/zsh
 
