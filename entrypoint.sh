@@ -25,7 +25,7 @@ echo "Starting dbus..."
 export $(dbus-launch) || true
 
 echo "Starting VNC server..."
-vncserver :1 -geometry 1920x1080 -depth 24
+vncserver :1 -geometry 1280x720 -depth 16 -AlwaysShared -SecurityTypes None
 
 echo "VNC started, tailing logs..."
 tail -f ~/.vnc/*.log
