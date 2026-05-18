@@ -4,7 +4,7 @@ LABEL maintainer="Hrushikesh Dolas <hexadivine@gmail.com>"
 
 RUN apt update
 RUN apt install kali-desktop-xfce -y
-RUN apt install tightvncserver dbus-x11 x11-xserver-utils -y
+RUN apt install tigervnc-standalone-server dbus-x11 x11-xserver-utils -y
 RUN apt clean && rm -rf /var/lib/apt/lists/* 
 
 RUN echo "root:root" | chpasswd
